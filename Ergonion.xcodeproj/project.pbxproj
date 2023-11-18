@@ -1,0 +1,600 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F813BEE22B06CA4100EEBABD /* dateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F813BEE12B06CA4100EEBABD /* dateData.swift */; };
+		F8B5D5D62AF9B43400AD0E65 /* ErgonionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B5D5D52AF9B43400AD0E65 /* ErgonionApp.swift */; };
+		F8B5D5D82AF9B43400AD0E65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B5D5D72AF9B43400AD0E65 /* ContentView.swift */; };
+		F8B5D5DA2AF9B43800AD0E65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B5D5D92AF9B43800AD0E65 /* Assets.xcassets */; };
+		F8B5D5DD2AF9B43800AD0E65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B5D5DC2AF9B43800AD0E65 /* Preview Assets.xcassets */; };
+		F8B5D5E72AF9B43800AD0E65 /* ErgonionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B5D5E62AF9B43800AD0E65 /* ErgonionTests.swift */; };
+		F8B5D5F12AF9B43800AD0E65 /* ErgonionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B5D5F02AF9B43800AD0E65 /* ErgonionUITests.swift */; };
+		F8B5D5F32AF9B43800AD0E65 /* ErgonionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B5D5F22AF9B43800AD0E65 /* ErgonionUITestsLaunchTests.swift */; };
+		F8E1B2FB2B07EBD200E3B7C6 /* entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E1B2FA2B07EBD200E3B7C6 /* entry.swift */; };
+		F8E1B2FD2B07EDBD00E3B7C6 /* eventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E1B2FC2B07EDBD00E3B7C6 /* eventData.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F8B5D5E32AF9B43800AD0E65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8B5D5CA2AF9B43400AD0E65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8B5D5D12AF9B43400AD0E65;
+			remoteInfo = Ergonion;
+		};
+		F8B5D5ED2AF9B43800AD0E65 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F8B5D5CA2AF9B43400AD0E65 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F8B5D5D12AF9B43400AD0E65;
+			remoteInfo = Ergonion;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		F813BEE12B06CA4100EEBABD /* dateData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dateData.swift; sourceTree = "<group>"; };
+		F8B5D5D22AF9B43400AD0E65 /* Ergonion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ergonion.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8B5D5D52AF9B43400AD0E65 /* ErgonionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErgonionApp.swift; sourceTree = "<group>"; };
+		F8B5D5D72AF9B43400AD0E65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		F8B5D5D92AF9B43800AD0E65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F8B5D5DC2AF9B43800AD0E65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		F8B5D5E22AF9B43800AD0E65 /* ErgonionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ErgonionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8B5D5E62AF9B43800AD0E65 /* ErgonionTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErgonionTests.swift; sourceTree = "<group>"; };
+		F8B5D5EC2AF9B43800AD0E65 /* ErgonionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ErgonionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		F8B5D5F02AF9B43800AD0E65 /* ErgonionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErgonionUITests.swift; sourceTree = "<group>"; };
+		F8B5D5F22AF9B43800AD0E65 /* ErgonionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErgonionUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F8E1B2FA2B07EBD200E3B7C6 /* entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = entry.swift; sourceTree = "<group>"; };
+		F8E1B2FC2B07EDBD00E3B7C6 /* eventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventData.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F8B5D5CF2AF9B43400AD0E65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B5D5DF2AF9B43800AD0E65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B5D5E92AF9B43800AD0E65 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F8B5D5C92AF9B43400AD0E65 = {
+			isa = PBXGroup;
+			children = (
+				F8B5D5D42AF9B43400AD0E65 /* Ergonion */,
+				F8B5D5E52AF9B43800AD0E65 /* ErgonionTests */,
+				F8B5D5EF2AF9B43800AD0E65 /* ErgonionUITests */,
+				F8B5D5D32AF9B43400AD0E65 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F8B5D5D32AF9B43400AD0E65 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F8B5D5D22AF9B43400AD0E65 /* Ergonion.app */,
+				F8B5D5E22AF9B43800AD0E65 /* ErgonionTests.xctest */,
+				F8B5D5EC2AF9B43800AD0E65 /* ErgonionUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F8B5D5D42AF9B43400AD0E65 /* Ergonion */ = {
+			isa = PBXGroup;
+			children = (
+				F8B5D5D52AF9B43400AD0E65 /* ErgonionApp.swift */,
+				F813BEE12B06CA4100EEBABD /* dateData.swift */,
+				F8E1B2FC2B07EDBD00E3B7C6 /* eventData.swift */,
+				F8B5D5D72AF9B43400AD0E65 /* ContentView.swift */,
+				F8E1B2FA2B07EBD200E3B7C6 /* entry.swift */,
+				F8B5D5D92AF9B43800AD0E65 /* Assets.xcassets */,
+				F8B5D5DB2AF9B43800AD0E65 /* Preview Content */,
+			);
+			path = Ergonion;
+			sourceTree = "<group>";
+		};
+		F8B5D5DB2AF9B43800AD0E65 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				F8B5D5DC2AF9B43800AD0E65 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		F8B5D5E52AF9B43800AD0E65 /* ErgonionTests */ = {
+			isa = PBXGroup;
+			children = (
+				F8B5D5E62AF9B43800AD0E65 /* ErgonionTests.swift */,
+			);
+			path = ErgonionTests;
+			sourceTree = "<group>";
+		};
+		F8B5D5EF2AF9B43800AD0E65 /* ErgonionUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F8B5D5F02AF9B43800AD0E65 /* ErgonionUITests.swift */,
+				F8B5D5F22AF9B43800AD0E65 /* ErgonionUITestsLaunchTests.swift */,
+			);
+			path = ErgonionUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F8B5D5D12AF9B43400AD0E65 /* Ergonion */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8B5D5F62AF9B43800AD0E65 /* Build configuration list for PBXNativeTarget "Ergonion" */;
+			buildPhases = (
+				F8B5D5CE2AF9B43400AD0E65 /* Sources */,
+				F8B5D5CF2AF9B43400AD0E65 /* Frameworks */,
+				F8B5D5D02AF9B43400AD0E65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ergonion;
+			productName = Ergonion;
+			productReference = F8B5D5D22AF9B43400AD0E65 /* Ergonion.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F8B5D5E12AF9B43800AD0E65 /* ErgonionTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8B5D5F92AF9B43800AD0E65 /* Build configuration list for PBXNativeTarget "ErgonionTests" */;
+			buildPhases = (
+				F8B5D5DE2AF9B43800AD0E65 /* Sources */,
+				F8B5D5DF2AF9B43800AD0E65 /* Frameworks */,
+				F8B5D5E02AF9B43800AD0E65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8B5D5E42AF9B43800AD0E65 /* PBXTargetDependency */,
+			);
+			name = ErgonionTests;
+			productName = ErgonionTests;
+			productReference = F8B5D5E22AF9B43800AD0E65 /* ErgonionTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F8B5D5EB2AF9B43800AD0E65 /* ErgonionUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F8B5D5FC2AF9B43800AD0E65 /* Build configuration list for PBXNativeTarget "ErgonionUITests" */;
+			buildPhases = (
+				F8B5D5E82AF9B43800AD0E65 /* Sources */,
+				F8B5D5E92AF9B43800AD0E65 /* Frameworks */,
+				F8B5D5EA2AF9B43800AD0E65 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F8B5D5EE2AF9B43800AD0E65 /* PBXTargetDependency */,
+			);
+			name = ErgonionUITests;
+			productName = ErgonionUITests;
+			productReference = F8B5D5EC2AF9B43800AD0E65 /* ErgonionUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F8B5D5CA2AF9B43400AD0E65 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					F8B5D5D12AF9B43400AD0E65 = {
+						CreatedOnToolsVersion = 14.3.1;
+					};
+					F8B5D5E12AF9B43800AD0E65 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = F8B5D5D12AF9B43400AD0E65;
+					};
+					F8B5D5EB2AF9B43800AD0E65 = {
+						CreatedOnToolsVersion = 14.3.1;
+						TestTargetID = F8B5D5D12AF9B43400AD0E65;
+					};
+				};
+			};
+			buildConfigurationList = F8B5D5CD2AF9B43400AD0E65 /* Build configuration list for PBXProject "Ergonion" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F8B5D5C92AF9B43400AD0E65;
+			productRefGroup = F8B5D5D32AF9B43400AD0E65 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F8B5D5D12AF9B43400AD0E65 /* Ergonion */,
+				F8B5D5E12AF9B43800AD0E65 /* ErgonionTests */,
+				F8B5D5EB2AF9B43800AD0E65 /* ErgonionUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F8B5D5D02AF9B43400AD0E65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B5D5DD2AF9B43800AD0E65 /* Preview Assets.xcassets in Resources */,
+				F8B5D5DA2AF9B43800AD0E65 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B5D5E02AF9B43800AD0E65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B5D5EA2AF9B43800AD0E65 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F8B5D5CE2AF9B43400AD0E65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8E1B2FD2B07EDBD00E3B7C6 /* eventData.swift in Sources */,
+				F8E1B2FB2B07EBD200E3B7C6 /* entry.swift in Sources */,
+				F813BEE22B06CA4100EEBABD /* dateData.swift in Sources */,
+				F8B5D5D82AF9B43400AD0E65 /* ContentView.swift in Sources */,
+				F8B5D5D62AF9B43400AD0E65 /* ErgonionApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B5D5DE2AF9B43800AD0E65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B5D5E72AF9B43800AD0E65 /* ErgonionTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8B5D5E82AF9B43800AD0E65 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F8B5D5F32AF9B43800AD0E65 /* ErgonionUITestsLaunchTests.swift in Sources */,
+				F8B5D5F12AF9B43800AD0E65 /* ErgonionUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F8B5D5E42AF9B43800AD0E65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8B5D5D12AF9B43400AD0E65 /* Ergonion */;
+			targetProxy = F8B5D5E32AF9B43800AD0E65 /* PBXContainerItemProxy */;
+		};
+		F8B5D5EE2AF9B43800AD0E65 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F8B5D5D12AF9B43400AD0E65 /* Ergonion */;
+			targetProxy = F8B5D5ED2AF9B43800AD0E65 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		F8B5D5F42AF9B43800AD0E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		F8B5D5F52AF9B43800AD0E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F8B5D5F72AF9B43800AD0E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ergonion/Preview Content\"";
+				DEVELOPMENT_TEAM = DDWWM75JBB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swift.Ergonion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F8B5D5F82AF9B43800AD0E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Ergonion/Preview Content\"";
+				DEVELOPMENT_TEAM = DDWWM75JBB;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swift.Ergonion;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F8B5D5FA2AF9B43800AD0E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DDWWM75JBB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swift.ErgonionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ergonion.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ergonion";
+			};
+			name = Debug;
+		};
+		F8B5D5FB2AF9B43800AD0E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DDWWM75JBB;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swift.ErgonionTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Ergonion.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/Ergonion";
+			};
+			name = Release;
+		};
+		F8B5D5FD2AF9B43800AD0E65 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DDWWM75JBB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swift.ErgonionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ergonion;
+			};
+			name = Debug;
+		};
+		F8B5D5FE2AF9B43800AD0E65 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DDWWM75JBB;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = swift.ErgonionUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Ergonion;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F8B5D5CD2AF9B43400AD0E65 /* Build configuration list for PBXProject "Ergonion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8B5D5F42AF9B43800AD0E65 /* Debug */,
+				F8B5D5F52AF9B43800AD0E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8B5D5F62AF9B43800AD0E65 /* Build configuration list for PBXNativeTarget "Ergonion" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8B5D5F72AF9B43800AD0E65 /* Debug */,
+				F8B5D5F82AF9B43800AD0E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8B5D5F92AF9B43800AD0E65 /* Build configuration list for PBXNativeTarget "ErgonionTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8B5D5FA2AF9B43800AD0E65 /* Debug */,
+				F8B5D5FB2AF9B43800AD0E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F8B5D5FC2AF9B43800AD0E65 /* Build configuration list for PBXNativeTarget "ErgonionUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F8B5D5FD2AF9B43800AD0E65 /* Debug */,
+				F8B5D5FE2AF9B43800AD0E65 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F8B5D5CA2AF9B43400AD0E65 /* Project object */;
+}
