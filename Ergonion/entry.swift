@@ -10,12 +10,11 @@ import Foundation
 class entry
 {
     public var date: dateData
-    public var events: eventData
+    public var events: [eventData]?
     
     init(methodOfEntry: Int)
     {
-         date =  dateData()
-         events = eventData()
+        date =  dateData()
         
         switch methodOfEntry
         {

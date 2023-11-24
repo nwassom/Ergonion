@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		F813BEE22B06CA4100EEBABD /* dateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F813BEE12B06CA4100EEBABD /* dateData.swift */; };
+		F85612462B0B194A00918382 /* homeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85612452B0B194A00918382 /* homeView.swift */; };
+		F85612482B0B1BE100918382 /* sceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85612472B0B1BE100918382 /* sceneDelegate.swift */; };
 		F8B5D5D62AF9B43400AD0E65 /* ErgonionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B5D5D52AF9B43400AD0E65 /* ErgonionApp.swift */; };
 		F8B5D5D82AF9B43400AD0E65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B5D5D72AF9B43400AD0E65 /* ContentView.swift */; };
 		F8B5D5DA2AF9B43800AD0E65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B5D5D92AF9B43800AD0E65 /* Assets.xcassets */; };
@@ -38,6 +40,8 @@
 
 /* Begin PBXFileReference section */
 		F813BEE12B06CA4100EEBABD /* dateData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dateData.swift; sourceTree = "<group>"; };
+		F85612452B0B194A00918382 /* homeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeView.swift; sourceTree = "<group>"; };
+		F85612472B0B1BE100918382 /* sceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sceneDelegate.swift; sourceTree = "<group>"; };
 		F8B5D5D22AF9B43400AD0E65 /* Ergonion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ergonion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B5D5D52AF9B43400AD0E65 /* ErgonionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErgonionApp.swift; sourceTree = "<group>"; };
 		F8B5D5D72AF9B43400AD0E65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -104,6 +108,8 @@
 				F813BEE12B06CA4100EEBABD /* dateData.swift */,
 				F8E1B2FC2B07EDBD00E3B7C6 /* eventData.swift */,
 				F8B5D5D72AF9B43400AD0E65 /* ContentView.swift */,
+				F85612452B0B194A00918382 /* homeView.swift */,
+				F85612472B0B1BE100918382 /* sceneDelegate.swift */,
 				F8E1B2FA2B07EBD200E3B7C6 /* entry.swift */,
 				F8B5D5D92AF9B43800AD0E65 /* Assets.xcassets */,
 				F8B5D5DB2AF9B43800AD0E65 /* Preview Content */,
@@ -267,10 +273,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8E1B2FD2B07EDBD00E3B7C6 /* eventData.swift in Sources */,
+				F85612482B0B1BE100918382 /* sceneDelegate.swift in Sources */,
 				F8E1B2FB2B07EBD200E3B7C6 /* entry.swift in Sources */,
 				F813BEE22B06CA4100EEBABD /* dateData.swift in Sources */,
 				F8B5D5D82AF9B43400AD0E65 /* ContentView.swift in Sources */,
 				F8B5D5D62AF9B43400AD0E65 /* ErgonionApp.swift in Sources */,
+				F85612462B0B194A00918382 /* homeView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
