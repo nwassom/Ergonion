@@ -8,7 +8,7 @@
 import Foundation
 
 let stringMonths = ["January", "February", "March", "April", "May", "June", "July", "August", "September", "October", "November", "December"]
-let stringDOW = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
+let dayOfWeekArr = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"]
 
 /*
     Object for date information
@@ -16,12 +16,12 @@ let stringDOW = ["Sunday", "Monday", "Tuesday", "Wednesday", "Thursday", "Friday
 class dateData
 {
     
-    private var DOW: Int
+    private var dayOfWeek: Int
     private var month: Int
     private var day: Int
     private var year: Int
     
-    private var DOWString: String
+    private var dayOfWeekString: String
     private var monthString: String
     
     /*
@@ -34,14 +34,14 @@ class dateData
         month = Calendar.current.component(.month, from: Date())
         day = Calendar.current.component(.day, from: Date())
         year = Calendar.current.component(.year, from: Date())
-        DOW = Calendar.current.component(.weekday, from: Date())
-        DOWString = stringDOW[DOW - 1]
+        dayOfWeek = Calendar.current.component(.weekday, from: Date())
+        dayOfWeekString = dayOfWeekArr[dayOfWeek - 1]
         monthString = stringMonths[month - 1]
     }
     
-    public func getDOW() -> Int
+    public func getDayOfWeek() -> Int
     {
-        return DOW
+        return dayOfWeek
     }
     
     public func getMonth() -> Int
@@ -59,9 +59,9 @@ class dateData
         return year
     }
     
-    public func getDOWString() -> String
+    public func getDayOfWeekString() -> String
     {
-        return DOWString
+        return dayOfWeekString
     }
     
     public func getMonthString() -> String

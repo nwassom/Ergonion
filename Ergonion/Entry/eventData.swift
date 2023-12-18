@@ -11,7 +11,7 @@ class eventData
 {
     fileprivate var startTime:time?
     fileprivate var endTime: time?
-    var name: String?
+    var eventName: String?
     
     init()
     {
@@ -20,7 +20,7 @@ class eventData
     
     func nameChange(newName:String)
     {
-        self.name = newName
+        self.eventName = newName
     }
     
 //    func startChange(newStart: Int)

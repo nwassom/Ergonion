@@ -7,18 +7,16 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		F813BEE22B06CA4100EEBABD /* dateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F813BEE12B06CA4100EEBABD /* dateData.swift */; };
-		F85612462B0B194A00918382 /* homeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85612452B0B194A00918382 /* homeView.swift */; };
-		F85612482B0B1BE100918382 /* sceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F85612472B0B1BE100918382 /* sceneDelegate.swift */; };
 		F8B5D5D62AF9B43400AD0E65 /* ErgonionApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B5D5D52AF9B43400AD0E65 /* ErgonionApp.swift */; };
-		F8B5D5D82AF9B43400AD0E65 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B5D5D72AF9B43400AD0E65 /* ContentView.swift */; };
 		F8B5D5DA2AF9B43800AD0E65 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B5D5D92AF9B43800AD0E65 /* Assets.xcassets */; };
 		F8B5D5DD2AF9B43800AD0E65 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F8B5D5DC2AF9B43800AD0E65 /* Preview Assets.xcassets */; };
 		F8B5D5E72AF9B43800AD0E65 /* ErgonionTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B5D5E62AF9B43800AD0E65 /* ErgonionTests.swift */; };
 		F8B5D5F12AF9B43800AD0E65 /* ErgonionUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B5D5F02AF9B43800AD0E65 /* ErgonionUITests.swift */; };
 		F8B5D5F32AF9B43800AD0E65 /* ErgonionUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8B5D5F22AF9B43800AD0E65 /* ErgonionUITestsLaunchTests.swift */; };
-		F8E1B2FB2B07EBD200E3B7C6 /* entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E1B2FA2B07EBD200E3B7C6 /* entry.swift */; };
-		F8E1B2FD2B07EDBD00E3B7C6 /* eventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8E1B2FC2B07EDBD00E3B7C6 /* eventData.swift */; };
+		F8BCDE672B2576FA005B7596 /* OpenView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BCDE662B2576FA005B7596 /* OpenView.swift */; };
+		F8BCDE6A2B25778F005B7596 /* eventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BCDE692B25778F005B7596 /* eventData.swift */; };
+		F8BCDE6C2B257795005B7596 /* entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BCDE6B2B257795005B7596 /* entry.swift */; };
+		F8BCDE6E2B257799005B7596 /* dateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BCDE6D2B257799005B7596 /* dateData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,12 +37,8 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		F813BEE12B06CA4100EEBABD /* dateData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dateData.swift; sourceTree = "<group>"; };
-		F85612452B0B194A00918382 /* homeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = homeView.swift; sourceTree = "<group>"; };
-		F85612472B0B1BE100918382 /* sceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sceneDelegate.swift; sourceTree = "<group>"; };
 		F8B5D5D22AF9B43400AD0E65 /* Ergonion.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Ergonion.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B5D5D52AF9B43400AD0E65 /* ErgonionApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErgonionApp.swift; sourceTree = "<group>"; };
-		F8B5D5D72AF9B43400AD0E65 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		F8B5D5D92AF9B43800AD0E65 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		F8B5D5DC2AF9B43800AD0E65 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		F8B5D5E22AF9B43800AD0E65 /* ErgonionTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ErgonionTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -52,8 +46,10 @@
 		F8B5D5EC2AF9B43800AD0E65 /* ErgonionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ErgonionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B5D5F02AF9B43800AD0E65 /* ErgonionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErgonionUITests.swift; sourceTree = "<group>"; };
 		F8B5D5F22AF9B43800AD0E65 /* ErgonionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErgonionUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		F8E1B2FA2B07EBD200E3B7C6 /* entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = entry.swift; sourceTree = "<group>"; };
-		F8E1B2FC2B07EDBD00E3B7C6 /* eventData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = eventData.swift; sourceTree = "<group>"; };
+		F8BCDE662B2576FA005B7596 /* OpenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenView.swift; sourceTree = "<group>"; };
+		F8BCDE692B25778F005B7596 /* eventData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = eventData.swift; sourceTree = "<group>"; };
+		F8BCDE6B2B257795005B7596 /* entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = entry.swift; sourceTree = "<group>"; };
+		F8BCDE6D2B257799005B7596 /* dateData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dateData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -104,13 +100,9 @@
 		F8B5D5D42AF9B43400AD0E65 /* Ergonion */ = {
 			isa = PBXGroup;
 			children = (
+				F8BCDE682B257784005B7596 /* Entry */,
 				F8B5D5D52AF9B43400AD0E65 /* ErgonionApp.swift */,
-				F813BEE12B06CA4100EEBABD /* dateData.swift */,
-				F8E1B2FC2B07EDBD00E3B7C6 /* eventData.swift */,
-				F8B5D5D72AF9B43400AD0E65 /* ContentView.swift */,
-				F85612452B0B194A00918382 /* homeView.swift */,
-				F85612472B0B1BE100918382 /* sceneDelegate.swift */,
-				F8E1B2FA2B07EBD200E3B7C6 /* entry.swift */,
+				F8BCDE652B2576A3005B7596 /* AppOpen */,
 				F8B5D5D92AF9B43800AD0E65 /* Assets.xcassets */,
 				F8B5D5DB2AF9B43800AD0E65 /* Preview Content */,
 			);
@@ -140,6 +132,24 @@
 				F8B5D5F22AF9B43800AD0E65 /* ErgonionUITestsLaunchTests.swift */,
 			);
 			path = ErgonionUITests;
+			sourceTree = "<group>";
+		};
+		F8BCDE652B2576A3005B7596 /* AppOpen */ = {
+			isa = PBXGroup;
+			children = (
+				F8BCDE662B2576FA005B7596 /* OpenView.swift */,
+			);
+			path = AppOpen;
+			sourceTree = "<group>";
+		};
+		F8BCDE682B257784005B7596 /* Entry */ = {
+			isa = PBXGroup;
+			children = (
+				F8BCDE692B25778F005B7596 /* eventData.swift */,
+				F8BCDE6B2B257795005B7596 /* entry.swift */,
+				F8BCDE6D2B257799005B7596 /* dateData.swift */,
+			);
+			path = Entry;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -206,7 +216,7 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1430;
-				LastUpgradeCheck = 1430;
+				LastUpgradeCheck = 1500;
 				TargetAttributes = {
 					F8B5D5D12AF9B43400AD0E65 = {
 						CreatedOnToolsVersion = 14.3.1;
@@ -272,13 +282,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F8E1B2FD2B07EDBD00E3B7C6 /* eventData.swift in Sources */,
-				F85612482B0B1BE100918382 /* sceneDelegate.swift in Sources */,
-				F8E1B2FB2B07EBD200E3B7C6 /* entry.swift in Sources */,
-				F813BEE22B06CA4100EEBABD /* dateData.swift in Sources */,
-				F8B5D5D82AF9B43400AD0E65 /* ContentView.swift in Sources */,
+				F8BCDE6C2B257795005B7596 /* entry.swift in Sources */,
+				F8BCDE6E2B257799005B7596 /* dateData.swift in Sources */,
+				F8BCDE672B2576FA005B7596 /* OpenView.swift in Sources */,
 				F8B5D5D62AF9B43400AD0E65 /* ErgonionApp.swift in Sources */,
-				F85612462B0B194A00918382 /* homeView.swift in Sources */,
+				F8BCDE6A2B25778F005B7596 /* eventData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -351,6 +359,7 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -411,6 +420,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;

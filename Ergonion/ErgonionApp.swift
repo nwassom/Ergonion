@@ -11,7 +11,7 @@ import SwiftUI
 struct ErgonionApp: App {
     var body: some Scene {
         WindowGroup {
-            homeView()
+            OpenView()
         }
     }
 }

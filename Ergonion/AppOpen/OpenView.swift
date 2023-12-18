@@ -14,10 +14,10 @@ import SwiftUI
  */
 
 
-struct homeView: View 
+struct OpenView: View 
 {
     
-    @State var flag: Int = 1
+    @State var flag: Bool = false
     var body: some View
     {
         ZStack
@@ -28,16 +28,14 @@ struct homeView: View
             VStack
             {
                
-                if (flag > 0)
+                if (flag)
                 {
-                   
+                   displayEntry()
                 }
                 else
                 {
-                    
+                    noEntry()
                 }
-                
-                    
             }
 
         }
@@ -68,11 +66,11 @@ struct homeView: View
         }
     }
     
-    struct homeView_Previews: PreviewProvider 
+    struct OpenView_Previews: PreviewProvider 
     {
         static var previews: some View
         {
-            homeView()
+            OpenView()
         }
     }
     
