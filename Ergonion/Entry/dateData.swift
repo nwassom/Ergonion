@@ -68,5 +68,11 @@ class dateData
     {
         return monthString
     }
+    
+    public func printDate()-> String
+    {
+        let dateString = "\(dayOfWeekString), \(monthString) \(day), \(year)"
+        return dateString
+    }
    
 }

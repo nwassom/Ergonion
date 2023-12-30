@@ -17,6 +17,9 @@
 		F8BCDE6A2B25778F005B7596 /* eventData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BCDE692B25778F005B7596 /* eventData.swift */; };
 		F8BCDE6C2B257795005B7596 /* entry.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BCDE6B2B257795005B7596 /* entry.swift */; };
 		F8BCDE6E2B257799005B7596 /* dateData.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8BCDE6D2B257799005B7596 /* dateData.swift */; };
+		F8C326682B3FC52900BAE191 /* EventModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C326672B3FC52900BAE191 /* EventModel.swift */; };
+		F8C3266B2B3FC58C00BAE191 /* TimeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C3266A2B3FC58C00BAE191 /* TimeModel.swift */; };
+		F8C3266D2B3FC60100BAE191 /* TimeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8C3266C2B3FC60100BAE191 /* TimeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -46,10 +49,13 @@
 		F8B5D5EC2AF9B43800AD0E65 /* ErgonionUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ErgonionUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F8B5D5F02AF9B43800AD0E65 /* ErgonionUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErgonionUITests.swift; sourceTree = "<group>"; };
 		F8B5D5F22AF9B43800AD0E65 /* ErgonionUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ErgonionUITestsLaunchTests.swift; sourceTree = "<group>"; };
-		F8BCDE662B2576FA005B7596 /* OpenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = OpenView.swift; sourceTree = "<group>"; };
+		F8BCDE662B2576FA005B7596 /* OpenView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = OpenView.swift; path = Ergonion/AppOpen/OpenView.swift; sourceTree = SOURCE_ROOT; };
 		F8BCDE692B25778F005B7596 /* eventData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = eventData.swift; sourceTree = "<group>"; };
-		F8BCDE6B2B257795005B7596 /* entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = entry.swift; sourceTree = "<group>"; };
+		F8BCDE6B2B257795005B7596 /* entry.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = entry.swift; path = Ergonion/Entry/entry.swift; sourceTree = SOURCE_ROOT; };
 		F8BCDE6D2B257799005B7596 /* dateData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = dateData.swift; sourceTree = "<group>"; };
+		F8C326672B3FC52900BAE191 /* EventModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EventModel.swift; sourceTree = "<group>"; };
+		F8C3266A2B3FC58C00BAE191 /* TimeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeModel.swift; sourceTree = "<group>"; };
+		F8C3266C2B3FC60100BAE191 /* TimeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TimeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -139,17 +145,38 @@
 			children = (
 				F8BCDE662B2576FA005B7596 /* OpenView.swift */,
 			);
-			path = AppOpen;
-			sourceTree = "<group>";
+			name = AppOpen;
+			path = Ergonion/AppOpen;
+			sourceTree = SOURCE_ROOT;
 		};
 		F8BCDE682B257784005B7596 /* Entry */ = {
 			isa = PBXGroup;
 			children = (
+				F8C326662B3FC50400BAE191 /* Event */,
 				F8BCDE692B25778F005B7596 /* eventData.swift */,
 				F8BCDE6B2B257795005B7596 /* entry.swift */,
 				F8BCDE6D2B257799005B7596 /* dateData.swift */,
 			);
-			path = Entry;
+			name = Entry;
+			path = Ergonion/Entry;
+			sourceTree = SOURCE_ROOT;
+		};
+		F8C326662B3FC50400BAE191 /* Event */ = {
+			isa = PBXGroup;
+			children = (
+				F8C326692B3FC57500BAE191 /* Time */,
+				F8C326672B3FC52900BAE191 /* EventModel.swift */,
+			);
+			path = Event;
+			sourceTree = "<group>";
+		};
+		F8C326692B3FC57500BAE191 /* Time */ = {
+			isa = PBXGroup;
+			children = (
+				F8C3266A2B3FC58C00BAE191 /* TimeModel.swift */,
+				F8C3266C2B3FC60100BAE191 /* TimeViewModel.swift */,
+			);
+			path = Time;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -283,9 +310,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				F8BCDE6C2B257795005B7596 /* entry.swift in Sources */,
+				F8C3266D2B3FC60100BAE191 /* TimeViewModel.swift in Sources */,
 				F8BCDE6E2B257799005B7596 /* dateData.swift in Sources */,
 				F8BCDE672B2576FA005B7596 /* OpenView.swift in Sources */,
+				F8C3266B2B3FC58C00BAE191 /* TimeModel.swift in Sources */,
 				F8B5D5D62AF9B43400AD0E65 /* ErgonionApp.swift in Sources */,
+				F8C326682B3FC52900BAE191 /* EventModel.swift in Sources */,
 				F8BCDE6A2B25778F005B7596 /* eventData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

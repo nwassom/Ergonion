@@ -16,8 +16,9 @@ import SwiftUI
 
 struct OpenView: View 
 {
+    // Creates new entry object
+    @State var todaysEntry = entry()
     
-    @State var flag: Bool = false
     var body: some View
     {
         ZStack
@@ -27,14 +28,22 @@ struct OpenView: View
             
             VStack
             {
-               
-                if (flag)
+                if (todaysEntry.isMade())
                 {
-                   displayEntry()
+                    Text(todaysEntry.date.printDate())
+                        .font(.custom("sf pro", size: 32))
+                        .multilineTextAlignment(.center)
+                        .foregroundStyle(.white)
+                    // todaysEntry.displayEntry()
+                    isEntry()
                 }
                 else
                 {
-                    noEntry()
+                    todaysEntry.newEntry(methodOfEntry:1)
+                        .onAppear()
+                        {
+                        
+                        }
                 }
             }
 
@@ -42,27 +51,14 @@ struct OpenView: View
 
     }
     
-    func noEntry() -> some View
+    func isEntry() -> some View
     {
         return VStack
         {
-            Text("Make A New\nEntry For The Day")
+            Text("There is already an entry today")
                 .font(.custom("sf pro", size: 32))
                 .multilineTextAlignment(.center)
                 .foregroundStyle(.white)
-        }
-    }
-    
-    func displayEntry() -> some View
-    {
-        return VStack
-        {
-            Text("Entry for \n\(Date())")
-                .font(.custom("sf pro", size: 32))
-                .multilineTextAlignment(.center)
-                .foregroundStyle(.white)
-                .padding(.leading)
-                .padding(.trailing)
         }
     }
     

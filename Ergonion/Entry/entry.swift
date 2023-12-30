@@ -6,29 +6,82 @@
 //
 
 import Foundation
+import SwiftUI
+
+
 
 class entry
 {
     public var date: dateData
-    public var events: [eventData]?
+    @State private var isEntry: Bool
+    private var events: [eventData]?
     
-    init(methodOfEntry: Int)
+    
+    init()
     {
         date =  dateData()
-        
+        isEntry = false
+    }
+    
+    func isMade() -> Bool
+    {
+        return self.isEntry
+    }
+    
+    func newEntry(methodOfEntry: Int) -> some View
+    {
         switch methodOfEntry
         {
             case 1:
                 print("Chose Text")
-               // loadScheduleText()
+                return newTextEntry()
             case 2:
                 print("Chose Voice")
-               // loadScheduleVoice()
+                return newTextEntry()
             case 3:
                 print("Chose Photo")
-              //  loadSchedulePhoto()
+                return newTextEntry()
             default:
-                print("methodOfEntry is an invalid value within jEntry")
+                return newTextEntry()
         }
+    }
+    
+    func newTextEntry() -> some View
+    {
+        @State var newEvent: eventData
+        @State var name: String = ""
+        @State var hour: Int
+        @State var minute: Int
+        @State var meridian: Bool
+        @State var time = Date()
+        
+        var newEntry: some View
+        {
+            VStack{
+                HStack
+                {
+                    Text("Entry for \(date.printDate())")
+                        .font(.custom("sf pro", size: 20))
+                        .foregroundStyle(.white)
+                        .padding([.top, .leading, .trailing])
+                        .padding(.leading, 0)
+                    Spacer()
+                }
+                
+                HStack
+                {
+                    TextField("Enter an item", text: $name)
+                        .padding()
+                        .textFieldStyle(RoundedBorderTextFieldStyle())
+                    DatePicker("Start Time", selection: $time, displayedComponents: .hourAndMinute)
+                        .datePickerStyle(CompactDatePickerStyle())
+                        .labelsHidden()
+                        .padding()
+                }
+            }
+        }
+        
+        self.isEntry = true
+        return newEntry
     }
 }
